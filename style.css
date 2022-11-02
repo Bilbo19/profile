@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Island+Moments&family=Itim&display=swap');
+
+body {
+  background-color: #def6dc;
+  font-family: 'IBM Plex Sans Arabic';
+  color: rgb(242, 242, 254);
+  font-size: large;
+  line-height: normal;
+  letter-spacing: 5%;
+}
+h1 {
+  color: darkblue;
+  font-family: 'IBM Plex Sans Arabic';
+  font-size: x-large;
+  font-weight: 1000;
+  line-height: normal;
+  text-decoration: underline;
+  text-align: center;
+}
+h2 {
+  color: black;
+  font-family: 'IBM Plex Sans Arabic';
+  font-size: x-large;
+  font-weight: 1000;
+}
+p {
+  color: black;
+  font-family: "Itim";
+  font-weight: 800;
+}
+#Photo {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+.card {
+  background: rgb(214, 233, 248);
+  border: 10% solid rgb(0, 0, 0);
+  width: 40%;
+  margin: 5% auto;
+  border-radius: 5%;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 2%;
+}
+#Link {
+  color: darkblue;
+  text-decoration: solid;
+  display:inline-block;
+  background: rgb(214, 233, 248);
+  padding: 7px;
+  border-radius: 4px;
+  box-shadow: 2px 10px 30px rgb(214, 233, 248);
+}
+#Link:hover {
+  text-decoration: underline;
+  background-color: rgb(232, 166, 166);
+}
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    width: 300px;
+  }
+}
